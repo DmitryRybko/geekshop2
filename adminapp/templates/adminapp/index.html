@@ -1,0 +1,70 @@
+{% extends 'adminapp/base.html' %}
+{% load static %}
+{% load my_tags %}
+
+{% block container %}
+    <div class="users_list">
+        <a href="{#% url 'myadmin:user_create' %#}" class="btn btn-primary new_user">
+            new user
+        </a>
+        {% for shop_user in all_users %}
+            <div class="user_record {% if not shop_user.is_active %}not_active{% endif %}">
+
+                {% if shop_user.registration_type == "G" %}
+                    <img src="{{ shop_user.avatar }}"
+                         alt="{{ shop_user.username }}">
+                    (аватарка из Google)
+                {% else %}
+                     <img src="{{ shop_user.avatar|media_folder_users }}"
+                          alt="{{ shop_user.username }}">
+                {% endif %}
+
+                <div class="user_role">
+                    {% if shop_user.is_superuser %}
+                        admin
+                    {% else %}
+                        user
+                    {% endif %}
+                    <a href="{% url 'new_admin:user_update' shop_user.pk %}"
+                       class="btn btn-primary">
+                        edit
+                    </a>
+                    {% if shop_user.is_active %}
+                        <a href="{% url 'new_admin:user_delete' shop_user.pk %}"
+                           class="btn btn-danger">
+                            delete
+                        </a>
+                    {% else %}
+                        <a href="{% url 'new_admin:user_update' shop_user.pk %}"
+                           class="btn btn-primary">
+                            restore
+                        </a>
+                    {% endif %}
+                </div>
+                <div class="user_name">
+                    <p><strong>{{ shop_user.username }}</strong></p>
+                    <p>
+                        {% if shop_user.first_name %}
+                            <b>{{ shop_user.first_name|capfirst }}</b>
+                            {% if shop_user.last_name %}
+                                <p>{{ shop_user.last_name|capfirst }}</p>
+                            {% endif %}
+                        {% endif %}
+                    </p>
+                </div>
+                <div class="user_age">
+                    age:<br>
+                    {{ shop_user.age }} years
+                </div>
+                <div class="user_email">
+                    email:<br>
+                    {{ shop_user.email }}
+                </div>
+                <div class="user_lastlogin">
+                    logged:<br>
+                    {{ shop_user.last_login }}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

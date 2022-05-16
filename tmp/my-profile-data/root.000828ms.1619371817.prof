@@ -1,0 +1,3627 @@
+events: Ticks
+summary: 828
+fl=<frozen importlib._bootstrap>
+fn=_new_module
+35 0
+
+fl=<frozen importlib._bootstrap>
+fn=__init__
+58 0
+cfn=<built-in method _thread.allocate_lock>
+calls=22 0
+58 0
+
+fl=<frozen importlib._bootstrap>
+fn=acquire
+87 0
+cfn=<built-in method _thread.get_ident>
+calls=11 0
+87 0
+cfn=<method '__exit__' of '_thread.lock' objects>
+calls=11 0
+87 0
+
+fl=<frozen importlib._bootstrap>
+fn=release
+112 0
+cfn=<built-in method _thread.get_ident>
+calls=11 0
+112 0
+cfn=<method '__exit__' of '_thread.lock' objects>
+calls=11 0
+112 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=_relax_case
+36 0
+
+fl=<frozen importlib._bootstrap>
+fn=__init__
+152 0
+
+fl=<frozen importlib._bootstrap>
+fn=__enter__
+156 0
+cfl=<frozen importlib._bootstrap>
+cfn=_get_module_lock
+calls=9 166
+156 0
+cfl=<frozen importlib._bootstrap>
+cfn=acquire
+calls=9 87
+156 0
+
+fl=<frozen importlib._bootstrap>
+fn=__exit__
+160 0
+cfl=<frozen importlib._bootstrap>
+cfn=release
+calls=9 112
+160 0
+
+fl=<frozen importlib._bootstrap>
+fn=cb
+185 0
+cfn=<built-in method _imp.acquire_lock>
+calls=11 0
+185 0
+cfn=<built-in method _imp.release_lock>
+calls=11 0
+185 0
+cfn=<method 'get' of 'dict' objects>
+calls=11 0
+185 0
+
+fl=<frozen importlib._bootstrap>
+fn=_get_module_lock
+166 0
+cfn=<built-in method _imp.acquire_lock>
+calls=11 0
+166 0
+cfn=<built-in method _imp.release_lock>
+calls=11 0
+166 0
+cfl=<frozen importlib._bootstrap>
+cfn=__init__
+calls=11 58
+166 0
+
+fl=<frozen importlib._bootstrap>
+fn=_lock_unlock_module
+203 0
+cfl=<frozen importlib._bootstrap>
+cfn=release
+calls=2 112
+203 0
+cfl=<frozen importlib._bootstrap>
+cfn=_get_module_lock
+calls=2 166
+203 0
+cfl=<frozen importlib._bootstrap>
+cfn=acquire
+calls=2 87
+203 0
+
+fl=<frozen importlib._bootstrap>
+fn=_call_with_frames_removed
+220 0
+cfn=<built-in method builtins.exec>
+calls=6 0
+220 2
+cfn=<built-in method builtins.__import__>
+calls=1 0
+220 0
+
+fl=<frozen importlib._bootstrap>
+fn=_verbose_message
+231 0
+
+fl=<frozen importlib._bootstrap>
+fn=__init__
+351 0
+
+fl=<frozen importlib._bootstrap>
+fn=cached
+385 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=_get_cached
+calls=6 431
+385 0
+
+fl=<frozen importlib._bootstrap>
+fn=parent
+398 0
+cfn=<method 'rpartition' of 'str' objects>
+calls=6 0
+398 0
+
+fl=<frozen importlib._bootstrap>
+fn=has_location
+406 0
+
+fl=<frozen importlib._bootstrap>
+fn=_init_module_attrs
+486 0
+cfn=<built-in method builtins.getattr>
+calls=36 0
+486 0
+cfl=<frozen importlib._bootstrap>
+cfn=parent
+calls=6 398
+486 0
+cfl=<frozen importlib._bootstrap>
+cfn=has_location
+calls=6 406
+486 0
+cfl=<frozen importlib._bootstrap>
+cfn=cached
+calls=12 385
+486 0
+
+fl=<frozen importlib._bootstrap>
+fn=module_from_spec
+558 0
+cfn=<built-in method builtins.hasattr>
+calls=6 0
+558 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=create_module
+calls=6 781
+558 0
+cfl=<frozen importlib._bootstrap>
+cfn=_new_module
+calls=6 35
+558 0
+cfl=<frozen importlib._bootstrap>
+cfn=_init_module_attrs
+calls=6 486
+558 0
+
+fl=<frozen importlib._bootstrap>
+fn=_load_unlocked
+659 0
+cfn=<built-in method builtins.hasattr>
+calls=6 0
+659 0
+cfn=<method 'pop' of 'dict' objects>
+calls=6 0
+659 0
+cfl=<frozen importlib._bootstrap>
+cfn=_verbose_message
+calls=6 231
+659 0
+cfl=<frozen importlib._bootstrap>
+cfn=module_from_spec
+calls=6 558
+659 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=exec_module
+calls=6 784
+659 4
+
+fl=<frozen importlib._bootstrap_external>
+fn=_unpack_uint32
+51 0
+cfn=<built-in method builtins.len>
+calls=18 0
+51 0
+cfn=<built-in method from_bytes>
+calls=18 0
+51 0
+
+fl=<frozen importlib._bootstrap>
+fn=find_spec
+736 0
+cfn=<built-in method _imp.is_builtin>
+calls=1 0
+736 0
+
+fl=<frozen importlib._bootstrap>
+fn=find_spec
+811 0
+cfn=<built-in method _imp.is_frozen>
+calls=7 0
+811 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=<listcomp>
+64 0
+cfn=<method 'rstrip' of 'str' objects>
+calls=132 0
+64 0
+
+fl=<frozen importlib._bootstrap>
+fn=__enter__
+874 0
+cfn=<built-in method _imp.acquire_lock>
+calls=24 0
+874 0
+
+fl=<frozen importlib._bootstrap>
+fn=__exit__
+878 0
+cfn=<built-in method _imp.release_lock>
+calls=24 0
+878 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=_path_join
+62 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=<listcomp>
+calls=60 64
+62 0
+cfn=<method 'join' of 'str' objects>
+calls=60 0
+62 0
+
+fl=<frozen importlib._bootstrap>
+fn=_find_spec_legacy
+892 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\utils\six.py
+cfn=find_module
+calls=1 182
+892 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\urllib3\packages\six.py
+cfn=find_module
+calls=1 180
+892 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\six.py
+cfn=find_module
+calls=1 184
+892 0
+
+fl=<frozen importlib._bootstrap>
+fn=_find_spec
+901 0
+cfl=<frozen importlib._bootstrap>
+cfn=__enter__
+calls=24 874
+901 0
+cfl=<frozen importlib._bootstrap>
+cfn=find_spec
+calls=7 736
+901 0
+cfl=<frozen importlib._bootstrap>
+cfn=__exit__
+calls=24 878
+901 0
+cfl=<frozen importlib._bootstrap>
+cfn=find_spec
+calls=7 811
+901 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=find_spec
+calls=7 1341
+901 2
+cfl=<frozen importlib._bootstrap>
+cfn=_find_spec_legacy
+calls=3 892
+901 0
+
+fl=<frozen importlib._bootstrap>
+fn=_sanity_check
+948 0
+cfn=<built-in method builtins.isinstance>
+calls=4 0
+948 0
+
+fl=<frozen importlib._bootstrap>
+fn=_find_and_load_unlocked
+967 0
+cfn=<built-in method builtins.setattr>
+calls=6 0
+967 0
+cfl=<frozen importlib._bootstrap>
+cfn=_find_spec
+calls=7 901
+967 3
+cfn=<method 'rpartition' of 'str' objects>
+calls=13 0
+967 0
+cfl=<frozen importlib._bootstrap>
+cfn=_load_unlocked
+calls=6 659
+967 4
+cfn=<method 'format' of 'str' objects>
+calls=1 0
+967 0
+
+fl=<frozen importlib._bootstrap>
+fn=_find_and_load
+1002 0
+cfl=<frozen importlib._bootstrap>
+cfn=_lock_unlock_module
+calls=2 203
+1002 0
+cfl=<frozen importlib._bootstrap>
+cfn=__exit__
+calls=9 160
+1002 0
+cfl=<frozen importlib._bootstrap>
+cfn=__init__
+calls=9 152
+1002 0
+cfl=<frozen importlib._bootstrap>
+cfn=__enter__
+calls=9 156
+1002 0
+cfl=<frozen importlib._bootstrap>
+cfn=cb
+calls=11 185
+1002 0
+cfn=<method 'get' of 'dict' objects>
+calls=9 0
+1002 0
+cfl=<frozen importlib._bootstrap>
+cfn=_find_and_load_unlocked
+calls=7 967
+1002 6
+
+fl=<frozen importlib._bootstrap>
+fn=_gcd_import
+1018 0
+cfl=<frozen importlib._bootstrap>
+cfn=_sanity_check
+calls=4 948
+1018 0
+cfl=<frozen importlib._bootstrap>
+cfn=_find_and_load
+calls=4 1002
+1018 6
+
+fl=<frozen importlib._bootstrap>
+fn=_handle_fromlist
+1033 0
+cfn=<built-in method builtins.isinstance>
+calls=12 0
+1033 0
+cfn=<built-in method builtins.hasattr>
+calls=12 0
+1033 0
+cfl=<frozen importlib._bootstrap>
+cfn=_call_with_frames_removed
+calls=1 220
+1033 0
+cfn=<method 'format' of 'str' objects>
+calls=1 0
+1033 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=_path_split
+68 0
+cfn=<built-in method builtins.len>
+calls=12 0
+68 0
+cfn=<method 'rsplit' of 'str' objects>
+calls=12 0
+68 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=_path_stat
+80 0
+cfn=<built-in method nt.stat>
+calls=26 0
+80 2
+
+fl=<frozen importlib._bootstrap_external>
+fn=_path_is_mode_type
+90 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_stat
+calls=7 80
+90 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=_path_isfile
+99 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_is_mode_type
+calls=6 90
+99 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=_path_isdir
+104 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_is_mode_type
+calls=1 90
+104 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=cache_from_source
+301 0
+cfn=<method 'rpartition' of 'str' objects>
+calls=12 0
+301 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_join
+calls=12 62
+301 0
+cfn=<method 'join' of 'str' objects>
+calls=12 0
+301 0
+cfn=<built-in method nt.fspath>
+calls=12 0
+301 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_split
+calls=12 68
+301 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=_get_cached
+431 0
+cfn=<method 'endswith' of 'str' objects>
+calls=6 0
+431 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=cache_from_source
+calls=6 301
+431 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=_check_name_wrapper
+463 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=get_filename
+calls=6 971
+463 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=_classify_pyc
+500 0
+cfn=<built-in method builtins.len>
+calls=6 0
+500 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=_unpack_uint32
+calls=6 51
+500 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=_validate_timestamp_pyc
+533 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=_unpack_uint32
+calls=12 51
+533 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=_compile_bytecode
+585 0
+cfn=<built-in method builtins.isinstance>
+calls=6 0
+585 0
+cfn=<built-in method marshal.loads>
+calls=6 0
+585 0
+cfn=<built-in method _imp._fix_co_filename>
+calls=6 0
+585 0
+cfl=<frozen importlib._bootstrap>
+cfn=_verbose_message
+calls=6 231
+585 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=spec_from_file_location
+636 0
+cfn=<built-in method nt.fspath>
+calls=6 0
+636 0
+cfl=<frozen importlib._bootstrap>
+cfn=__init__
+calls=6 351
+636 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=create_module
+781 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=exec_module
+784 0
+cfl=<frozen importlib._bootstrap>
+cfn=_call_with_frames_removed
+calls=6 220
+784 2
+cfl=<frozen importlib._bootstrap_external>
+cfn=get_code
+calls=6 856
+784 2
+
+fl=<frozen importlib._bootstrap_external>
+fn=get_code
+856 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=_classify_pyc
+calls=6 500
+856 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=_validate_timestamp_pyc
+calls=6 533
+856 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=_compile_bytecode
+calls=6 585
+856 0
+cfl=<frozen importlib._bootstrap>
+cfn=_verbose_message
+calls=6 231
+856 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=cache_from_source
+calls=6 301
+856 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=_check_name_wrapper
+calls=6 463
+856 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=path_stats
+calls=6 1017
+856 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=get_data
+calls=6 976
+856 1
+
+fl=<frozen importlib._bootstrap_external>
+fn=__init__
+946 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=get_filename
+971 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=get_data
+976 0
+cfn=<built-in method builtins.isinstance>
+calls=6 0
+976 0
+cfn=<method '__exit__' of '_io._IOBase' objects>
+calls=6 0
+976 0
+cfn=<method 'read' of '_io.BufferedReader' objects>
+calls=6 0
+976 0
+cfn=<built-in method io.open_code>
+calls=6 0
+976 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=path_stats
+1017 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_stat
+calls=6 80
+1017 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=_path_hooks
+1259 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=path_hook_for_FileFinder
+calls=1 1527
+1259 0
+cfl=<frozen zipimport>
+cfn=__init__
+calls=1 63
+1259 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=_path_importer_cache
+1272 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_hooks
+calls=1 1259
+1272 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=_get_spec
+1309 0
+cfn=<built-in method builtins.isinstance>
+calls=13 0
+1309 0
+cfn=<built-in method builtins.hasattr>
+calls=12 0
+1309 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_importer_cache
+calls=13 1272
+1309 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=find_spec
+calls=12 1438
+1309 2
+cfl=<frozen importlib._bootstrap>
+cfn=__init__
+calls=1 351
+1309 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=find_spec
+1341 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=_get_spec
+calls=7 1309
+1341 2
+
+fl=<frozen zipimport>
+fn=__init__
+63 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+63 0
+cfn=<method 'replace' of 'str' objects>
+calls=1 0
+63 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_stat
+calls=1 80
+63 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=<genexpr>
+1407 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=__init__
+1401 0
+cfn=<method 'extend' of 'list' objects>
+calls=3 0
+1401 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=_get_spec
+1433 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=__init__
+calls=6 946
+1433 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=spec_from_file_location
+calls=6 636
+1433 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=find_spec
+1438 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=_get_spec
+calls=6 1433
+1438 0
+cfn=<method 'rpartition' of 'str' objects>
+calls=12 0
+1438 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_stat
+calls=12 80
+1438 1
+cfl=<frozen importlib._bootstrap_external>
+cfn=_relax_case
+calls=12 36
+1438 0
+cfl=<frozen importlib._bootstrap>
+cfn=_verbose_message
+calls=48 231
+1438 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_join
+calls=48 62
+1438 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_isfile
+calls=6 99
+1438 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=_fill_cache
+calls=1 1486
+1438 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=<setcomp>
+1515 0
+cfn=<method 'lower' of 'str' objects>
+calls=6 0
+1515 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=_fill_cache
+1486 0
+cfn=<method 'startswith' of 'str' objects>
+calls=2 0
+1486 0
+cfn=<method 'lower' of 'str' objects>
+calls=5 0
+1486 0
+cfn=<built-in method nt.listdir>
+calls=1 0
+1486 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=<setcomp>
+calls=1 1515
+1486 0
+cfn=<method 'partition' of 'str' objects>
+calls=6 0
+1486 0
+cfn=<method 'format' of 'str' objects>
+calls=5 0
+1486 0
+cfn=<method 'add' of 'set' objects>
+calls=6 0
+1486 0
+
+fl=<frozen importlib._bootstrap_external>
+fn=path_hook_for_FileFinder
+1527 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=__init__
+calls=1 1401
+1527 0
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_isdir
+calls=1 104
+1527 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\enum.py
+fn=__call__
+334 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\enum.py
+cfn=__new__
+calls=22 646
+334 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\enum.py
+fn=__new__
+646 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\enum.py
+fn=__and__
+948 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+948 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\enum.py
+cfn=__call__
+calls=2 334
+948 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\threading.py
+fn=current_thread
+1318 0
+cfn=<built-in method _thread.get_ident>
+calls=2 0
+1318 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\re.py
+fn=search
+198 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\re.py
+cfn=_compile
+calls=1 289
+198 0
+cfn=<method 'search' of 're.Pattern' objects>
+calls=1 0
+198 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\re.py
+fn=compile
+250 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\re.py
+cfn=_compile
+calls=1 289
+250 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\re.py
+fn=_compile
+289 0
+cfn=<built-in method builtins.isinstance>
+calls=3 0
+289 0
+cfn=<built-in method builtins.len>
+calls=1 0
+289 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_compile.py
+cfn=isstring
+calls=1 595
+289 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_compile.py
+cfn=compile
+calls=1 759
+289 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\enum.py
+cfn=__and__
+calls=1 948
+289 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_compile.py
+fn=_compile
+71 0
+cfn=<method 'append' of 'list' objects>
+calls=2 0
+71 0
+cfn=<built-in method builtins.len>
+calls=2 0
+71 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_compile.py
+cfn=_optimize_charset
+calls=1 276
+71 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_compile.py
+cfn=_compile_charset
+calls=1 249
+71 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_compile.py
+fn=_compile_charset
+249 0
+cfn=<method 'append' of 'list' objects>
+calls=6 0
+249 0
+cfn=<method 'extend' of 'list' objects>
+calls=2 0
+249 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_compile.py
+fn=_optimize_charset
+276 0
+cfn=<method 'append' of 'list' objects>
+calls=8 0
+276 0
+cfn=<built-in method builtins.len>
+calls=8 0
+276 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_compile.py
+cfn=_mk_bitmap
+calls=2 411
+276 0
+cfn=<method 'find' of 'bytearray' objects>
+calls=10 0
+276 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_compile.py
+fn=<listcomp>
+413 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_compile.py
+fn=_mk_bitmap
+411 0
+cfn=<built-in method builtins.len>
+calls=2 0
+411 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_compile.py
+cfn=<listcomp>
+calls=2 413
+411 0
+cfn=<method 'translate' of 'bytearray' objects>
+calls=2 0
+411 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_compile.py
+fn=_get_iscased
+453 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_compile.py
+fn=_get_literal_prefix
+461 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_compile.py
+cfn=_get_iscased
+calls=1 453
+461 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_compile.py
+fn=_get_charset_prefix
+492 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_compile.py
+cfn=_get_iscased
+calls=1 453
+492 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_compile.py
+fn=_compile_info
+536 0
+cfn=<method 'append' of 'list' objects>
+calls=5 0
+536 0
+cfn=<built-in method builtins.len>
+calls=2 0
+536 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+cfn=getwidth
+calls=1 174
+536 0
+cfn=<built-in method builtins.min>
+calls=1 0
+536 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_compile.py
+cfn=_get_literal_prefix
+calls=1 461
+536 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_compile.py
+cfn=_get_charset_prefix
+calls=1 492
+536 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_compile.py
+cfn=_optimize_charset
+calls=1 276
+536 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_compile.py
+cfn=_compile_charset
+calls=1 249
+536 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_compile.py
+fn=isstring
+595 0
+cfn=<built-in method builtins.isinstance>
+calls=2 0
+595 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_compile.py
+fn=_code
+598 0
+cfn=<method 'append' of 'list' objects>
+calls=1 0
+598 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_compile.py
+cfn=_compile_info
+calls=1 536
+598 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_compile.py
+cfn=_compile
+calls=1 71
+598 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_compile.py
+fn=compile
+759 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_compile.py
+cfn=isstring
+calls=1 595
+759 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+cfn=parse
+calls=1 937
+759 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_compile.py
+cfn=_code
+calls=1 598
+759 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+cfn=groups
+calls=2 81
+759 0
+cfn=<built-in method _sre.compile>
+calls=1 0
+759 0
+cfn=<method 'items' of 'dict' objects>
+calls=1 0
+759 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+fn=__init__
+76 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+fn=groups
+81 0
+cfn=<built-in method builtins.len>
+calls=2 0
+81 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+fn=__init__
+111 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+fn=__len__
+160 0
+cfn=<built-in method builtins.len>
+calls=1 0
+160 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+fn=__getitem__
+164 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+164 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+fn=append
+172 0
+cfn=<method 'append' of 'list' objects>
+calls=1 0
+172 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+fn=getwidth
+174 0
+cfn=<built-in method builtins.min>
+calls=2 0
+174 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+fn=__init__
+224 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+224 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+cfn=__next
+calls=1 233
+224 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+fn=__next
+233 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+fn=match
+249 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+cfn=__next
+calls=4 233
+249 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+fn=get
+254 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+cfn=__next
+calls=8 233
+254 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+fn=tell
+286 0
+cfn=<built-in method builtins.len>
+calls=2 0
+286 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+fn=_uniq
+432 0
+cfn=<built-in method fromkeys>
+calls=1 0
+432 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+fn=_parse_sub
+435 0
+cfn=<method 'append' of 'list' objects>
+calls=1 0
+435 0
+cfn=<built-in method builtins.len>
+calls=1 0
+435 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+cfn=tell
+calls=1 286
+435 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+cfn=_parse
+calls=1 493
+435 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+cfn=match
+calls=1 249
+435 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+fn=_parse
+493 0
+cfn=<method 'append' of 'list' objects>
+calls=3 0
+493 0
+cfn=<built-in method builtins.len>
+calls=2 0
+493 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+cfn=tell
+calls=1 286
+493 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+cfn=__init__
+calls=1 111
+493 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+cfn=get
+calls=8 254
+493 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+cfn=match
+calls=4 249
+493 0
+cfn=<built-in method builtins.ord>
+calls=6 0
+493 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+cfn=append
+calls=1 172
+493 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+cfn=_uniq
+calls=1 432
+493 0
+cfn=<method 'insert' of 'list' objects>
+calls=1 0
+493 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+cfn=__getitem__
+calls=1 164
+493 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+fn=fix_flags
+921 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+921 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+fn=parse
+937 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+cfn=__init__
+calls=1 224
+937 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+cfn=__init__
+calls=1 76
+937 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+cfn=_parse_sub
+calls=1 435
+937 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+cfn=fix_flags
+calls=1 921
+937 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\importlib\__init__.py
+fn=import_module
+109 0
+cfl=<frozen importlib._bootstrap>
+cfn=_gcd_import
+calls=4 1018
+109 6
+cfn=<method 'startswith' of 'str' objects>
+calls=4 0
+109 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\weakref.py
+fn=__new__
+47 0
+cfn=<built-in method __new__ of type object at 0x00007FFE5B764C60>
+calls=3 0
+47 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\weakref.py
+fn=__init__
+558 0
+cfn=<built-in method builtins.next>
+calls=3 0
+558 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\utils\module_loading.py
+fn=import_string
+7 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\importlib\__init__.py
+cfn=import_module
+calls=2 109
+7 6
+cfn=<built-in method builtins.getattr>
+calls=2 0
+7 0
+cfn=<method 'rsplit' of 'str' objects>
+calls=2 0
+7 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\conf\__init__.py
+fn=__getattr__
+76 0
+cfn=<built-in method builtins.getattr>
+calls=10 0
+76 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\conf\__init__.py
+fn=configured
+113 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\utils\deprecation.py
+fn=__call__
+90 0
+cfn=<built-in method builtins.hasattr>
+calls=8 0
+90 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\middleware\csrf.py
+cfn=process_request
+calls=1 200
+90 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\core\handlers\exception.py
+cfn=inner
+calls=8 31
+90 827
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\middleware\security.py
+cfn=process_request
+calls=1 20
+90 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\sessions\middleware.py
+cfn=process_request
+calls=1 18
+90 2
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\middleware\common.py
+cfn=process_request
+calls=1 34
+90 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\auth\middleware.py
+cfn=process_request
+calls=1 17
+90 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\middleware.py
+cfn=process_request
+calls=1 11
+90 4
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+fn=isclass
+73 0
+cfn=<built-in method builtins.isinstance>
+calls=2 0
+73 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\urllib\parse.py
+fn=quote
+810 0
+cfn=<method 'encode' of 'str' objects>
+calls=2 0
+810 0
+cfn=<built-in method builtins.isinstance>
+calls=2 0
+810 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\urllib\parse.py
+cfn=quote_from_bytes
+calls=2 881
+810 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\urllib\parse.py
+fn=quote_from_bytes
+881 0
+cfn=<method 'encode' of 'str' objects>
+calls=2 0
+881 0
+cfn=<built-in method builtins.isinstance>
+calls=4 0
+881 0
+cfn=<method 'decode' of 'bytes' objects>
+calls=2 0
+881 0
+cfn=<method 'rstrip' of 'bytes' objects>
+calls=2 0
+881 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+fn=isfunction
+159 0
+cfn=<built-in method builtins.isinstance>
+calls=6 0
+159 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+fn=_is_wrapper
+514 0
+cfn=<built-in method builtins.hasattr>
+calls=3 0
+514 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+fn=unwrap
+494 0
+cfn=<built-in method builtins.id>
+calls=3 0
+494 0
+cfn=<built-in method sys.getrecursionlimit>
+calls=3 0
+494 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+cfn=_is_wrapper
+calls=3 514
+494 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+fn=_signature_bound_method
+1838 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+cfn=parameters
+calls=3 2882
+1838 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+cfn=kind
+calls=6 2577
+1838 0
+cfn=<method 'values' of 'mappingproxy' objects>
+calls=3 0
+1838 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+cfn=replace
+calls=3 2890
+1838 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+fn=_signature_from_function
+2150 0
+cfn=<method 'get' of 'dict' objects>
+calls=23 0
+2150 0
+cfn=<method 'append' of 'list' objects>
+calls=20 0
+2150 0
+cfn=<built-in method builtins.getattr>
+calls=3 0
+2150 0
+cfn=<built-in method builtins.len>
+calls=1 0
+2150 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+cfn=isfunction
+calls=3 159
+2150 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+cfn=__init__
+calls=20 2515
+2150 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+cfn=__init__
+calls=3 2798
+2150 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+fn=_signature_from_callable
+2244 0
+cfn=<built-in method builtins.isinstance>
+calls=9 0
+2244 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+cfn=unwrap
+calls=3 494
+2244 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+cfn=isfunction
+calls=3 159
+2244 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+cfn=_signature_from_function
+calls=3 2150
+2244 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+cfn=_signature_bound_method
+calls=3 1838
+2244 0
+cfn=<built-in method builtins.callable>
+calls=6 0
+2244 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+cfn=_signature_from_callable
+calls=3 2244
+2244 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+fn=__init__
+2515 0
+cfn=<built-in method builtins.isinstance>
+calls=20 0
+2515 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\enum.py
+cfn=__call__
+calls=20 334
+2515 0
+cfn=<method 'isidentifier' of 'str' objects>
+calls=20 0
+2515 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+fn=name
+2565 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+fn=default
+2569 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+fn=kind
+2577 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+fn=<genexpr>
+2847 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+cfn=name
+calls=20 2565
+2847 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+fn=__init__
+2798 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+cfn=<genexpr>
+calls=23 2847
+2798 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+cfn=name
+calls=17 2565
+2798 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+cfn=kind
+calls=17 2577
+2798 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+cfn=default
+calls=14 2569
+2798 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+fn=from_callable
+2876 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+cfn=_signature_from_callable
+calls=3 2244
+2876 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+fn=parameters
+2882 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+fn=replace
+2890 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+cfn=__init__
+calls=3 2798
+2890 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+fn=signature
+3128 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+cfn=from_callable
+calls=3 2876
+3128 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\utils\functional.py
+fn=__get__
+72 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\core\handlers\wsgi.py
+cfn=COOKIES
+calls=1 116
+72 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+cfn=url_patterns
+calls=1 568
+72 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+cfn=urlconf_module
+calls=1 561
+72 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\utils\functional.py
+fn=__init__
+273 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\utils\functional.py
+cfn=__setattr__
+calls=2 280
+273 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\utils\functional.py
+fn=__setattr__
+280 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\utils\functional.py
+fn=__init__
+379 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\utils\functional.py
+cfn=__init__
+calls=1 273
+379 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\dispatch\dispatcher.py
+fn=_make_id
+7 0
+cfn=<built-in method builtins.hasattr>
+calls=7 0
+7 0
+cfn=<built-in method builtins.id>
+calls=10 0
+7 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\dispatch\dispatcher.py
+fn=<genexpr>
+109 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\dispatch\dispatcher.py
+fn=connect
+49 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\dispatch\dispatcher.py
+cfn=_make_id
+calls=6 7
+49 0
+cfn=<method '__exit__' of '_thread.lock' objects>
+calls=3 0
+49 0
+cfn=<built-in method builtins.hasattr>
+calls=6 0
+49 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\dispatch\dispatcher.py
+cfn=_clear_dead_receivers
+calls=3 214
+49 0
+cfn=<method 'append' of 'list' objects>
+calls=3 0
+49 0
+cfn=<built-in method builtins.any>
+calls=3 0
+49 0
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist
+calls=3 1033
+49 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\weakref.py
+cfn=__new__
+calls=3 47
+49 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\weakref.py
+cfn=__init__
+calls=3 558
+49 0
+cfn=<method 'clear' of 'dict' objects>
+calls=3 0
+49 0
+cfn=<built-in method builtins.callable>
+calls=3 0
+49 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\conf\__init__.py
+cfn=configured
+calls=3 113
+49 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\utils\inspect.py
+cfn=func_accepts_kwargs
+calls=3 36
+49 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\dispatch\dispatcher.py
+fn=<listcomp>
+173 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\__init__.py
+cfn=close_old_connections
+calls=1 55
+173 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\__init__.py
+cfn=reset_queries
+calls=1 45
+173 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\dispatch\dispatcher.py
+fn=send
+152 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+152 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\dispatch\dispatcher.py
+cfn=<listcomp>
+calls=1 173
+152 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\dispatch\dispatcher.py
+cfn=_live_receivers
+calls=1 223
+152 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\dispatch\dispatcher.py
+fn=_clear_dead_receivers
+214 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\dispatch\dispatcher.py
+fn=_live_receivers
+223 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\dispatch\dispatcher.py
+cfn=_make_id
+calls=1 7
+223 0
+cfn=<built-in method builtins.isinstance>
+calls=2 0
+223 0
+cfn=<method '__exit__' of '_thread.lock' objects>
+calls=1 0
+223 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\dispatch\dispatcher.py
+cfn=_clear_dead_receivers
+calls=1 214
+223 0
+cfn=<method 'append' of 'list' objects>
+calls=4 0
+223 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\utils\inspect.py
+fn=<genexpr>
+37 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+cfn=kind
+calls=17 2577
+37 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\utils\inspect.py
+fn=func_accepts_kwargs
+36 0
+cfn=<built-in method builtins.any>
+calls=3 0
+36 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+cfn=parameters
+calls=3 2882
+36 0
+cfn=<method 'values' of 'mappingproxy' objects>
+calls=3 0
+36 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\utils\inspect.py
+cfn=<genexpr>
+calls=3 37
+36 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+cfn=signature
+calls=3 3128
+36 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\__init__.py
+fn=reset_queries
+45 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\utils.py
+cfn=all
+calls=1 215
+45 0
+cfn=<method 'clear' of 'collections.deque' objects>
+calls=1 0
+45 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\__init__.py
+fn=close_old_connections
+55 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\utils.py
+cfn=all
+calls=1 215
+55 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\backends\base\base.py
+cfn=close_if_unusable_or_obsolete
+calls=1 492
+55 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\utils.py
+fn=load_backend
+100 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\importlib\__init__.py
+cfn=import_module
+calls=1 109
+100 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\utils.py
+fn=ensure_defaults
+160 0
+cfn=<method 'setdefault' of 'dict' objects>
+calls=11 0
+160 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\utils.py
+fn=prepare_test_settings
+181 0
+cfn=<method 'setdefault' of 'dict' objects>
+calls=5 0
+181 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\utils.py
+fn=__getitem__
+194 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\utils.py
+cfn=ensure_defaults
+calls=1 160
+194 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\utils.py
+cfn=load_backend
+calls=1 100
+194 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\utils.py
+cfn=prepare_test_settings
+calls=1 181
+194 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\backends\base\base.py
+cfn=__init__
+calls=1 47
+194 0
+cfn=<built-in method builtins.hasattr>
+calls=4 0
+194 0
+cfn=<built-in method builtins.getattr>
+calls=3 0
+194 0
+cfn=<built-in method builtins.setattr>
+calls=1 0
+194 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\utils.py
+fn=__iter__
+212 0
+cfn=<built-in method builtins.iter>
+calls=4 0
+212 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\utils.py
+fn=<listcomp>
+216 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\utils.py
+cfn=__getitem__
+calls=3 194
+216 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\utils.py
+fn=all
+215 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\utils.py
+cfn=<listcomp>
+calls=3 216
+215 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\utils.py
+cfn=__iter__
+calls=3 212
+215 0
+
+fl=C:\python_course\django2_course\dz6_Rybko_Dmitry\geekshop\geekshop\settings.py
+fn=<lambda>
+71 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\base.py
+fn=resolve
+21 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\base.py
+cfn=get_urlconf
+calls=1 142
+21 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+cfn=get_resolver
+calls=1 65
+21 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+cfn=resolve
+calls=1 521
+21 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\base.py
+fn=set_script_prefix
+102 0
+cfn=<method 'endswith' of 'str' objects>
+calls=1 0
+102 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\base.py
+fn=set_urlconf
+130 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\base.py
+fn=get_urlconf
+142 0
+cfn=<built-in method builtins.getattr>
+calls=1 0
+142 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+fn=<listcomp>
+40 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+fn=<listcomp>
+42 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\utils\encoding.py
+fn=escape_uri_path
+205 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\urllib\parse.py
+cfn=quote
+calls=2 810
+205 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\utils\encoding.py
+fn=repercent_broken_unicode
+222 0
+cfn=<method 'decode' of 'bytes' objects>
+calls=2 0
+222 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\http\cookie.py
+fn=parse_cookie
+10 0
+cfn=<method 'strip' of 'str' objects>
+calls=8 0
+10 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\http\cookies.py
+cfn=_unquote
+calls=4 190
+10 0
+cfn=<method 'split' of 'str' objects>
+calls=5 0
+10 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\utils\six.py
+fn=find_module
+182 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\http\cookies.py
+fn=_unquote
+190 0
+cfn=<built-in method builtins.len>
+calls=4 0
+190 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\http\request.py
+fn=_get_raw_host
+74 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\conf\__init__.py
+cfn=__getattr__
+calls=1 76
+74 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\http\request.py
+fn=get_host
+93 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\http\request.py
+cfn=validate_host
+calls=1 587
+93 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\http\request.py
+cfn=split_domain_port
+calls=1 565
+93 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\http\request.py
+cfn=_get_raw_host
+calls=1 74
+93 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\conf\__init__.py
+cfn=__getattr__
+calls=1 76
+93 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\http\request.py
+fn=get_full_path
+121 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\http\request.py
+cfn=_get_full_path
+calls=2 127
+121 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\http\request.py
+fn=_get_full_path
+127 0
+cfn=<method 'get' of 'dict' objects>
+calls=2 0
+127 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\utils\encoding.py
+cfn=escape_uri_path
+calls=2 205
+127 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\http\request.py
+fn=split_domain_port
+565 0
+cfn=<method 'endswith' of 'str' objects>
+calls=1 0
+565 0
+cfn=<built-in method builtins.len>
+calls=1 0
+565 0
+cfn=<method 'lower' of 'str' objects>
+calls=1 0
+565 0
+cfn=<method 'match' of 're.Pattern' objects>
+calls=1 0
+565 0
+cfn=<method 'rsplit' of 'str' objects>
+calls=1 0
+565 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\http\request.py
+fn=<genexpr>
+602 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\http\request.py
+fn=validate_host
+587 0
+cfn=<built-in method builtins.any>
+calls=1 0
+587 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\http\request.py
+cfn=<genexpr>
+calls=1 602
+587 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\cgi.py
+fn=_parseparam
+215 0
+cfn=<method 'find' of 'str' objects>
+calls=1 0
+215 0
+cfn=<built-in method builtins.len>
+calls=1 0
+215 0
+cfn=<method 'strip' of 'str' objects>
+calls=1 0
+215 0
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\cgi.py
+fn=parse_header
+227 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\cgi.py
+cfn=_parseparam
+calls=2 215
+227 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+fn=__init__
+31 0
+cfn=<built-in method builtins.hasattr>
+calls=3 0
+31 0
+cfn=<method 'join' of 'str' objects>
+calls=9 0
+31 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+cfn=<listcomp>
+calls=2 40
+31 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+cfn=<listcomp>
+calls=2 42
+31 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+fn=get_resolver
+65 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+cfn=__init__
+calls=1 142
+65 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+cfn=__init__
+calls=1 366
+65 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+fn=__get__
+87 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+87 0
+cfn=<built-in method builtins.getattr>
+calls=1 0
+87 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+cfn=_compile
+calls=1 179
+87 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+fn=__init__
+142 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+fn=match
+149 0
+cfn=<method 'search' of 're.Pattern' objects>
+calls=1 0
+149 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+cfn=__get__
+calls=1 87
+149 0
+cfn=<method 'groupdict' of 're.Match' objects>
+calls=1 0
+149 0
+cfn=<method 'groups' of 're.Match' objects>
+calls=1 0
+149 0
+cfn=<method 'end' of 're.Match' objects>
+calls=1 0
+149 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+fn=_compile
+179 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\re.py
+cfn=compile
+calls=1 250
+179 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+fn=match
+247 0
+cfn=<method 'items' of 'dict' objects>
+calls=2 0
+247 0
+cfn=<method 'search' of 're.Pattern' objects>
+calls=2 0
+247 0
+cfn=<method 'groupdict' of 're.Match' objects>
+calls=2 0
+247 0
+cfn=<method 'end' of 're.Match' objects>
+calls=2 0
+247 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+fn=__str__
+276 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+fn=resolve
+343 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+cfn=match
+calls=1 247
+343 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+cfn=__str__
+calls=1 276
+343 0
+cfn=<method 'update' of 'dict' objects>
+calls=1 0
+343 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+cfn=__init__
+calls=1 31
+343 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+fn=__init__
+366 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+fn=_join_route
+507 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+fn=resolve
+521 0
+cfn=<built-in method builtins.isinstance>
+calls=2 0
+521 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\utils\functional.py
+cfn=__get__
+calls=1 72
+521 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+cfn=resolve
+calls=1 521
+521 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+cfn=match
+calls=1 149
+521 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+cfn=match
+calls=1 247
+521 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+cfn=resolve
+calls=1 343
+521 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+cfn=__str__
+calls=1 276
+521 0
+cfn=<method 'update' of 'dict' objects>
+calls=2 0
+521 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+cfn=__init__
+calls=2 31
+521 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+cfn=_join_route
+calls=2 507
+521 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+fn=urlconf_module
+561 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\importlib\__init__.py
+cfn=import_module
+calls=1 109
+561 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+561 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\resolvers.py
+fn=url_patterns
+568 0
+cfn=<built-in method builtins.iter>
+calls=1 0
+568 0
+cfn=<built-in method builtins.getattr>
+calls=1 0
+568 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\utils\functional.py
+cfn=__get__
+calls=1 72
+568 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\__init__.py
+fn=default_storage
+5 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\conf\__init__.py
+cfn=__getattr__
+calls=1 76
+5 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\utils\module_loading.py
+cfn=import_string
+calls=1 7
+5 4
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\fallback.py
+cfn=__init__
+calls=1 13
+5 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\middleware\csrf.py
+fn=_sanitize_token
+106 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\re.py
+cfn=search
+calls=1 198
+106 0
+cfn=<built-in method builtins.len>
+calls=1 0
+106 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\middleware\csrf.py
+fn=_get_token
+159 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\middleware\csrf.py
+cfn=_sanitize_token
+calls=1 106
+159 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\conf\__init__.py
+cfn=__getattr__
+calls=2 76
+159 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\middleware\csrf.py
+fn=process_request
+200 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\middleware\csrf.py
+cfn=_get_token
+calls=1 159
+200 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\urllib3\packages\six.py
+fn=find_module
+180 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\backends\base\base.py
+fn=__init__
+47 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\backends\base\features.py
+cfn=__init__
+calls=1 288
+47 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\backends\base\client.py
+cfn=__init__
+calls=1 7
+47 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\backends\base\creation.py
+cfn=__init__
+calls=1 20
+47 0
+cfn=<built-in method _thread.get_ident>
+calls=1 0
+47 0
+cfn=<built-in method _thread.allocate_lock>
+calls=1 0
+47 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\backends\base\validation.py
+cfn=__init__
+calls=1 3
+47 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\backends\base\operations.py
+cfn=__init__
+calls=1 52
+47 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\backends\base\introspection.py
+cfn=__init__
+calls=1 14
+47 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\backends\base\base.py
+fn=queries
+152 0
+cfn=<built-in method builtins.len>
+calls=1 0
+152 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\backends\base\base.py
+fn=close_if_unusable_or_obsolete
+492 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\backends\base\validation.py
+fn=__init__
+3 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\backends\base\client.py
+fn=__init__
+7 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\backends\base\creation.py
+fn=__init__
+20 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\backends\base\features.py
+fn=__init__
+288 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\backends\base\introspection.py
+fn=__init__
+14 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\backends\base\operations.py
+fn=__init__
+52 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\six.py
+fn=find_module
+184 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\staticfiles\handlers.py
+fn=_should_handle
+34 0
+cfn=<method 'startswith' of 'str' objects>
+calls=1 0
+34 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\staticfiles\handlers.py
+fn=__call__
+63 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\core\handlers\wsgi.py
+cfn=__call__
+calls=1 137
+63 828
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\core\handlers\wsgi.py
+cfn=get_path_info
+calls=1 156
+63 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\staticfiles\handlers.py
+cfn=_should_handle
+calls=1 34
+63 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\core\handlers\exception.py
+fn=inner
+31 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\middleware.py
+cfn=__call__
+calls=1 44
+31 820
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\utils\deprecation.py
+cfn=__call__
+calls=8 90
+31 827
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\core\handlers\wsgi.py
+fn=__init__
+19 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\core\handlers\wsgi.py
+fn=__init__
+67 0
+cfn=<method 'get' of 'dict' objects>
+calls=2 0
+67 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\core\handlers\wsgi.py
+cfn=get_path_info
+calls=1 156
+67 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\core\handlers\wsgi.py
+cfn=get_script_name
+calls=1 163
+67 0
+cfn=<method 'rstrip' of 'str' objects>
+calls=1 0
+67 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\cgi.py
+cfn=parse_header
+calls=1 227
+67 0
+cfn=<method 'replace' of 'str' objects>
+calls=1 0
+67 0
+cfn=<method 'upper' of 'str' objects>
+calls=1 0
+67 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\core\handlers\wsgi.py
+cfn=__init__
+calls=1 19
+67 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\core\handlers\wsgi.py
+fn=COOKIES
+116 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\core\handlers\wsgi.py
+cfn=get_str_from_wsgi
+calls=1 207
+116 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\http\cookie.py
+cfn=parse_cookie
+calls=1 10
+116 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\core\handlers\wsgi.py
+fn=__call__
+137 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\base.py
+cfn=set_script_prefix
+calls=1 102
+137 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\dispatch\dispatcher.py
+cfn=send
+calls=1 152
+137 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\core\handlers\wsgi.py
+cfn=get_script_name
+calls=1 163
+137 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\core\handlers\wsgi.py
+cfn=__init__
+calls=1 67
+137 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\core\handlers\base.py
+cfn=get_response
+calls=1 71
+137 827
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\core\handlers\wsgi.py
+fn=get_path_info
+156 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\core\handlers\wsgi.py
+cfn=get_bytes_from_wsgi
+calls=2 194
+156 0
+cfn=<method 'decode' of 'bytes' objects>
+calls=2 0
+156 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\utils\encoding.py
+cfn=repercent_broken_unicode
+calls=2 222
+156 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\core\handlers\wsgi.py
+fn=get_script_name
+163 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\core\handlers\wsgi.py
+cfn=get_bytes_from_wsgi
+calls=6 194
+163 0
+cfn=<method 'decode' of 'bytes' objects>
+calls=2 0
+163 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\core\handlers\wsgi.py
+fn=get_bytes_from_wsgi
+194 0
+cfn=<method 'get' of 'dict' objects>
+calls=9 0
+194 0
+cfn=<method 'encode' of 'str' objects>
+calls=9 0
+194 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\core\handlers\wsgi.py
+fn=get_str_from_wsgi
+207 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\core\handlers\wsgi.py
+cfn=get_bytes_from_wsgi
+calls=1 194
+207 0
+cfn=<method 'decode' of 'bytes' objects>
+calls=1 0
+207 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\core\handlers\base.py
+fn=get_response
+71 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\base.py
+cfn=set_urlconf
+calls=1 130
+71 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\core\handlers\exception.py
+cfn=inner
+calls=1 31
+71 827
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\middleware.py
+fn=get_show_toolbar
+24 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+24 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\middleware.py
+fn=__call__
+44 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\middleware.py
+cfn=get_show_toolbar
+calls=1 24
+44 0
+cfl=C:\python_course\django2_course\dz6_Rybko_Dmitry\geekshop\geekshop\settings.py
+cfn=<lambda>
+calls=1 71
+44 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\toolbar.py
+cfn=is_toolbar_request
+calls=1 137
+44 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\toolbar.py
+cfn=enabled_panels
+calls=1 47
+44 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\__init__.py
+cfn=enable_instrumentation
+calls=8 124
+44 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\toolbar.py
+cfn=__init__
+calls=1 20
+44 1
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\sql\panel.py
+cfn=enable_instrumentation
+calls=1 140
+44 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\templates\panel.py
+cfn=enable_instrumentation
+calls=1 165
+44 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\cache.py
+cfn=enable_instrumentation
+calls=1 253
+44 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\staticfiles.py
+cfn=enable_instrumentation
+calls=1 95
+44 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\template_profiler_panel\panels\template.py
+cfn=enable_instrumentation
+calls=1 125
+44 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\__init__.py
+cfn=process_request
+calls=1 180
+44 818
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\toolbar.py
+fn=__init__
+20 0
+cfn=<method 'append' of 'list' objects>
+calls=14 0
+20 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\__init__.py
+cfn=__init__
+calls=8 12
+20 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\__init__.py
+cfn=enabled
+calls=14 22
+20 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\__init__.py
+cfn=panel_id
+calls=14 18
+20 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\logging.py
+cfn=__init__
+calls=1 59
+20 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\cache.py
+cfn=__init__
+calls=1 159
+20 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\templates\panel.py
+cfn=__init__
+calls=1 67
+20 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\staticfiles.py
+cfn=__init__
+calls=1 90
+20 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\sql\panel.py
+cfn=__init__
+calls=1 57
+20 0
+cfn=<method 'pop' of 'list' objects>
+calls=14 0
+20 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\toolbar.py
+cfn=get_panel_classes
+calls=1 109
+20 0
+cfn=<method 'copy' of 'dict' objects>
+calls=1 0
+20 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\template_profiler_panel\panels\template.py
+cfn=__init__
+calls=1 23
+20 1
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\toolbar.py
+fn=<listcomp>
+52 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\__init__.py
+cfn=enabled
+calls=14 22
+52 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\toolbar.py
+fn=enabled_panels
+47 0
+cfn=<method 'values' of 'collections.OrderedDict' objects>
+calls=1 0
+47 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\toolbar.py
+cfn=<listcomp>
+calls=1 52
+47 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\toolbar.py
+fn=get_panel_classes
+109 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\toolbar.py
+fn=is_toolbar_request
+137 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\urls\base.py
+cfn=resolve
+calls=1 21
+137 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\__init__.py
+fn=__init__
+12 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\__init__.py
+fn=panel_id
+18 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\__init__.py
+fn=enabled
+22 0
+cfn=<method 'get' of 'dict' objects>
+calls=28 0
+22 0
+cfn=<method 'replace' of 'str' objects>
+calls=24 0
+22 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\utils.py
+cfn=get_name_from_obj
+calls=28 145
+22 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\__init__.py
+cfn=panel_id
+calls=28 18
+22 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\__init__.py
+fn=enable_instrumentation
+124 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\__init__.py
+fn=record_stats
+149 0
+cfn=<method 'setdefault' of 'dict' objects>
+calls=1 0
+149 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\__init__.py
+cfn=panel_id
+calls=1 18
+149 0
+cfn=<method 'update' of 'dict' objects>
+calls=1 0
+149 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\__init__.py
+fn=process_request
+180 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\__init__.py
+cfn=process_request
+calls=6 180
+180 818
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\timer.py
+cfn=process_request
+calls=1 61
+180 818
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\headers.py
+cfn=process_request
+calls=1 37
+180 818
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\staticfiles.py
+cfn=process_request
+calls=1 115
+180 818
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\logging.py
+cfn=process_request
+calls=1 75
+180 818
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\profiling.py
+cfn=process_request
+calls=1 154
+180 818
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\utils.py
+fn=get_name_from_obj
+145 0
+cfn=<built-in method builtins.hasattr>
+calls=56 0
+145 0
+cfn=<method 'format' of 'str' objects>
+calls=28 0
+145 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\utils.py
+fn=clear_collection
+260 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\threading.py
+cfn=current_thread
+calls=2 1318
+260 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\timer.py
+fn=process_request
+61 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\__init__.py
+cfn=process_request
+calls=1 180
+61 818
+cfn=<built-in method time.time>
+calls=1 0
+61 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\headers.py
+fn=<genexpr>
+39 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\headers.py
+cfn=is_http_header
+calls=91 57
+39 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\headers.py
+cfn=unmangle
+calls=17 63
+39 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\headers.py
+fn=<genexpr>
+44 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\headers.py
+fn=process_request
+37 0
+cfn=<method 'items' of 'dict' objects>
+calls=1 0
+37 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\__init__.py
+cfn=process_request
+calls=1 180
+37 818
+cfn=<built-in method builtins.sorted>
+calls=1 0
+37 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\headers.py
+cfn=<genexpr>
+calls=18 39
+37 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\__init__.py
+cfn=record_stats
+calls=1 149
+37 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\headers.py
+cfn=<genexpr>
+calls=15 44
+37 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\headers.py
+fn=is_http_header
+57 0
+cfn=<built-in method builtins.isinstance>
+calls=91 0
+57 0
+cfn=<method 'startswith' of 'str' objects>
+calls=91 0
+57 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\headers.py
+fn=unmangle
+63 0
+cfn=<method 'replace' of 'str' objects>
+calls=17 0
+63 0
+cfn=<method 'title' of 'str' objects>
+calls=17 0
+63 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\sql\panel.py
+fn=<dictcomp>
+59 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\utils.py
+cfn=__getitem__
+calls=1 194
+59 0
+cfn=<built-in method builtins.len>
+calls=1 0
+59 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\backends\base\base.py
+cfn=queries
+calls=1 152
+59 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\sql\panel.py
+fn=__init__
+57 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\utils.py
+cfn=__iter__
+calls=1 212
+57 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\__init__.py
+cfn=__init__
+calls=1 12
+57 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\sql\panel.py
+cfn=<dictcomp>
+calls=1 59
+57 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\sql\panel.py
+fn=enable_instrumentation
+140 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\db\utils.py
+cfn=all
+calls=1 215
+140 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\sql\tracking.py
+cfn=wrap_cursor
+calls=1 41
+140 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\sql\tracking.py
+fn=wrap_cursor
+41 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+41 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\templates\panel.py
+fn=__init__
+67 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\__init__.py
+cfn=__init__
+calls=1 12
+67 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\templates\panel.py
+fn=enable_instrumentation
+165 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\dispatch\dispatcher.py
+cfn=connect
+calls=1 49
+165 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\staticfiles.py
+fn=__init__
+90 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\__init__.py
+cfn=__init__
+calls=1 12
+90 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\staticfiles.py
+fn=enable_instrumentation
+95 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\utils\functional.py
+cfn=__init__
+calls=1 273
+95 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\staticfiles.py
+fn=process_request
+115 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\__init__.py
+cfn=process_request
+calls=1 180
+115 818
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\utils.py
+cfn=clear_collection
+calls=1 260
+115 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\cache.py
+fn=__init__
+159 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\__init__.py
+cfn=__init__
+calls=1 12
+159 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\dispatch\dispatcher.py
+cfn=connect
+calls=1 49
+159 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\cache.py
+fn=enable_instrumentation
+253 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+253 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\logging.py
+fn=__init__
+59 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\__init__.py
+cfn=__init__
+calls=1 12
+59 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\logging.py
+fn=process_request
+75 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\__init__.py
+cfn=process_request
+calls=1 180
+75 818
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\utils.py
+cfn=clear_collection
+calls=1 260
+75 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\template_profiler_panel\panels\template.py
+fn=__init__
+23 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\__init__.py
+cfn=__init__
+calls=1 12
+23 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\template_profiler_panel\panels\template.py
+cfn=monkey_patch_template_classes
+calls=1 37
+23 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\dispatch\dispatcher.py
+cfn=connect
+calls=1 49
+23 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\template_profiler_panel\panels\template.py
+fn=monkey_patch_template_classes
+37 0
+cfl=<frozen importlib._bootstrap>
+cfn=_find_and_load
+calls=1 1002
+37 0
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist
+calls=1 1033
+37 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\wrapt\decorators.py
+cfn=decorator
+calls=1 176
+37 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\wrapt\wrappers.py
+cfn=__call__
+calls=1 535
+37 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\debug_toolbar\panels\profiling.py
+fn=process_request
+154 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\cProfile.py
+cfn=runcall
+calls=1 106
+154 818
+
+fl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\cProfile.py
+fn=runcall
+106 0
+cfn=<method 'enable' of '_lsprof.Profiler' objects>
+calls=1 0
+106 818
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\template_profiler_panel\panels\template.py
+fn=enable_instrumentation
+125 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\wrapt\wrappers.py
+fn=__init__
+77 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\wrapt\wrappers.py
+fn=__setattr__
+167 0
+cfn=<method 'startswith' of 'str' objects>
+calls=3 0
+167 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\wrapt\wrappers.py
+fn=__init__
+468 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\wrapt\wrappers.py
+cfn=__init__
+calls=2 77
+468 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\wrapt\wrappers.py
+fn=__call__
+535 0
+cfn=<built-in method builtins.getattr>
+calls=1 0
+535 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\wrapt\decorators.py
+cfn=_wrapper
+calls=1 227
+535 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\wrapt\wrappers.py
+fn=__init__
+631 0
+cfn=<built-in method builtins.isinstance>
+calls=4 0
+631 0
+cfn=<built-in method builtins.hasattr>
+calls=2 0
+631 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\wrapt\wrappers.py
+cfn=__init__
+calls=2 468
+631 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\wrapt\decorators.py
+fn=__init__
+80 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\wrapt\wrappers.py
+cfn=__init__
+calls=1 77
+80 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\wrapt\wrappers.py
+cfn=__setattr__
+calls=1 167
+80 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\wrapt\decorators.py
+fn=__init__
+129 0
+cfn=<method 'pop' of 'dict' objects>
+calls=1 0
+129 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\wrapt\wrappers.py
+cfn=__init__
+calls=1 631
+129 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\wrapt\decorators.py
+cfn=__init__
+calls=1 80
+129 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\wrapt\wrappers.py
+cfn=__setattr__
+calls=2 167
+129 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\wrapt\decorators.py
+fn=_build
+202 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+202 0
+cfn=<built-in method builtins.callable>
+calls=1 0
+202 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\wrapt\decorators.py
+cfn=__init__
+calls=1 129
+202 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\wrapt\wrappers.py
+cfn=__init__
+calls=1 631
+202 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\wrapt\decorators.py
+fn=_wrapper
+227 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\wrapt\decorators.py
+cfn=_build
+calls=1 202
+227 0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\inspect.py
+cfn=isclass
+calls=2 73
+227 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\wrapt\decorators.py
+fn=decorator
+176 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\wrapt\decorators.py
+cfn=_build
+calls=1 202
+176 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\middleware\security.py
+fn=process_request
+20 0
+cfn=<method 'lstrip' of 'str' objects>
+calls=1 0
+20 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\sessions\middleware.py
+fn=process_request
+18 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+18 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\conf\__init__.py
+cfn=__getattr__
+calls=1 76
+18 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\utils\functional.py
+cfn=__get__
+calls=1 72
+18 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\sessions\backends\db.py
+cfn=__init__
+calls=1 16
+18 2
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\sessions\backends\base.py
+fn=__init__
+44 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\conf\__init__.py
+cfn=__getattr__
+calls=1 76
+44 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\sessions\backends\base.py
+cfn=_set_session_key
+calls=1 170
+44 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\utils\module_loading.py
+cfn=import_string
+calls=1 7
+44 2
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\sessions\backends\base.py
+fn=_validate_session_key
+160 0
+cfn=<built-in method builtins.len>
+calls=1 0
+160 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\sessions\backends\base.py
+fn=_set_session_key
+170 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\sessions\backends\base.py
+cfn=_validate_session_key
+calls=1 160
+170 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\middleware\common.py
+fn=should_redirect_with_slash
+62 0
+cfn=<method 'endswith' of 'str' objects>
+calls=1 0
+62 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\middleware\common.py
+fn=process_request
+34 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\middleware\common.py
+cfn=should_redirect_with_slash
+calls=1 62
+34 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\http\request.py
+cfn=get_full_path
+calls=2 121
+34 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\http\request.py
+cfn=get_host
+calls=1 93
+34 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\conf\__init__.py
+cfn=__getattr__
+calls=2 76
+34 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\auth\middleware.py
+fn=process_request
+17 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+17 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\utils\functional.py
+cfn=__init__
+calls=1 379
+17 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\middleware.py
+fn=process_request
+11 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\__init__.py
+cfn=default_storage
+calls=1 5
+11 4
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\sessions\backends\db.py
+fn=__init__
+16 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\sessions\backends\base.py
+cfn=__init__
+calls=1 44
+16 2
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\sessions\serializers.py
+fn=PickleSerializer
+6 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\sessions\serializers.py
+fn=<module>
+1 0
+cfn=<built-in method builtins.__build_class__>
+calls=1 0
+1 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\fallback.py
+fn=FallbackStorage
+6 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\fallback.py
+fn=<module>
+1 0
+cfl=<frozen importlib._bootstrap>
+cfn=_find_and_load
+calls=3 1002
+1 2
+cfn=<built-in method builtins.__build_class__>
+calls=1 0
+1 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\base.py
+fn=Message
+7 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\base.py
+fn=__init__
+51 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\fallback.py
+fn=<listcomp>
+15 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\session.py
+cfn=__init__
+calls=1 16
+15 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\base.py
+cfn=__init__
+calls=1 51
+15 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\fallback.py
+fn=__init__
+13 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\base.py
+cfn=__init__
+calls=1 51
+13 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\fallback.py
+cfn=<listcomp>
+calls=1 15
+13 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\base.py
+fn=BaseStorage
+43 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\utils.py
+fn=<module>
+1 0
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist
+calls=2 1033
+1 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\cookie.py
+fn=MessageEncoder
+10 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\utils.py
+fn=get_level_tags
+5 0
+cfn=<built-in method builtins.getattr>
+calls=1 0
+5 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\cookie.py
+fn=MessageDecoder
+27 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\base.py
+fn=<module>
+1 0
+cfn=<built-in method builtins.__build_class__>
+calls=2 0
+1 0
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist
+calls=2 1033
+1 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\utils.py
+cfn=get_level_tags
+calls=1 5
+1 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\cookie.py
+fn=<module>
+1 0
+cfn=<built-in method builtins.__build_class__>
+calls=3 0
+1 0
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist
+calls=2 1033
+1 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\session.py
+fn=<module>
+1 0
+cfn=<built-in method builtins.__build_class__>
+calls=1 0
+1 0
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist
+calls=1 1033
+1 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\session.py
+fn=__init__
+16 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+16 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\base.py
+cfn=__init__
+calls=1 51
+16 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\session.py
+fn=SessionStorage
+10 0
+
+fl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\cookie.py
+fn=CookieStorage
+52 0
+
+fn=<built-in method __new__ of type object at 0x00007FFE5B764C60>
+0  0
+
+fn=<method 'clear' of 'collections.deque' objects>
+0  0
+
+fn=<method 'match' of 're.Pattern' objects>
+0  0
+
+fn=<method 'search' of 're.Pattern' objects>
+0  0
+
+fn=<method 'end' of 're.Match' objects>
+0  0
+
+fn=<method 'groups' of 're.Match' objects>
+0  0
+
+fn=<method 'groupdict' of 're.Match' objects>
+0  0
+
+fn=<built-in method _sre.compile>
+0  0
+
+fn=<built-in method nt.stat>
+0  2
+
+fn=<built-in method nt.listdir>
+0  0
+
+fn=<built-in method nt.fspath>
+0  0
+
+fn=<method '__exit__' of '_thread.lock' objects>
+0  0
+
+fn=<built-in method _thread.allocate_lock>
+0  0
+
+fn=<built-in method _thread.get_ident>
+0  0
+
+fn=<built-in method time.time>
+0  0
+
+fn=<method 'read' of '_io.BufferedReader' objects>
+0  0
+
+fn=<method '__exit__' of '_io._IOBase' objects>
+0  0
+
+fn=<built-in method io.open_code>
+0  0
+
+fn=<method 'find' of 'bytearray' objects>
+0  0
+
+fn=<method 'translate' of 'bytearray' objects>
+0  0
+
+fn=<method 'decode' of 'bytes' objects>
+0  0
+
+fn=<method 'rstrip' of 'bytes' objects>
+0  0
+
+fn=<method 'values' of 'mappingproxy' objects>
+0  0
+
+fn=<method 'get' of 'dict' objects>
+0  0
+
+fn=<method 'setdefault' of 'dict' objects>
+0  0
+
+fn=<method 'pop' of 'dict' objects>
+0  0
+
+fn=<method 'items' of 'dict' objects>
+0  0
+
+fn=<method 'update' of 'dict' objects>
+0  0
+
+fn=<built-in method fromkeys>
+0  0
+
+fn=<method 'clear' of 'dict' objects>
+0  0
+
+fn=<method 'copy' of 'dict' objects>
+0  0
+
+fn=<method 'append' of 'list' objects>
+0  0
+
+fn=<method 'insert' of 'list' objects>
+0  0
+
+fn=<method 'extend' of 'list' objects>
+0  0
+cfl=<frozen importlib._bootstrap_external>
+cfn=<genexpr>
+calls=8 1407
+0 0
+
+fn=<method 'pop' of 'list' objects>
+0  0
+
+fn=<built-in method from_bytes>
+0  0
+
+fn=<method 'values' of 'collections.OrderedDict' objects>
+0  0
+
+fn=<method 'add' of 'set' objects>
+0  0
+
+fn=<method 'encode' of 'str' objects>
+0  0
+
+fn=<method 'replace' of 'str' objects>
+0  0
+
+fn=<method 'split' of 'str' objects>
+0  0
+
+fn=<method 'rsplit' of 'str' objects>
+0  0
+
+fn=<method 'join' of 'str' objects>
+0  0
+
+fn=<method 'title' of 'str' objects>
+0  0
+
+fn=<method 'find' of 'str' objects>
+0  0
+
+fn=<method 'partition' of 'str' objects>
+0  0
+
+fn=<method 'lower' of 'str' objects>
+0  0
+
+fn=<method 'lstrip' of 'str' objects>
+0  0
+
+fn=<method 'rstrip' of 'str' objects>
+0  0
+
+fn=<method 'rpartition' of 'str' objects>
+0  0
+
+fn=<method 'strip' of 'str' objects>
+0  0
+
+fn=<method 'upper' of 'str' objects>
+0  0
+
+fn=<method 'startswith' of 'str' objects>
+0  0
+
+fn=<method 'endswith' of 'str' objects>
+0  0
+
+fn=<method 'isidentifier' of 'str' objects>
+0  0
+
+fn=<method 'format' of 'str' objects>
+0  0
+
+fn=<built-in method builtins.__build_class__>
+0  0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\sessions\serializers.py
+cfn=PickleSerializer
+calls=1 6
+0 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\base.py
+cfn=Message
+calls=1 7
+0 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\base.py
+cfn=BaseStorage
+calls=1 43
+0 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\cookie.py
+cfn=MessageEncoder
+calls=1 10
+0 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\cookie.py
+cfn=MessageDecoder
+calls=1 27
+0 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\cookie.py
+cfn=CookieStorage
+calls=1 52
+0 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\session.py
+cfn=SessionStorage
+calls=1 10
+0 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\fallback.py
+cfn=FallbackStorage
+calls=1 6
+0 0
+
+fn=<built-in method builtins.__import__>
+0  0
+cfl=<frozen importlib._bootstrap>
+cfn=_find_and_load
+calls=1 1002
+0 0
+
+fn=<built-in method builtins.any>
+0  0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\http\request.py
+cfn=<genexpr>
+calls=1 602
+0 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\utils\inspect.py
+cfn=<genexpr>
+calls=3 37
+0 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\dispatch\dispatcher.py
+cfn=<genexpr>
+calls=3 109
+0 0
+
+fn=<built-in method builtins.callable>
+0  0
+
+fn=<built-in method builtins.exec>
+0  0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\fallback.py
+cfn=<module>
+calls=1 1
+0 2
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\sessions\serializers.py
+cfn=<module>
+calls=1 1
+0 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\base.py
+cfn=<module>
+calls=1 1
+0 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\utils.py
+cfn=<module>
+calls=1 1
+0 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\cookie.py
+cfn=<module>
+calls=1 1
+0 0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\contrib\messages\storage\session.py
+cfn=<module>
+calls=1 1
+0 0
+
+fn=<built-in method builtins.getattr>
+0  0
+cfl=C:\python_course\django2_course\django2_virt\lib\site-packages\django\conf\__init__.py
+cfn=__getattr__
+calls=1 76
+0 0
+
+fn=<built-in method builtins.hasattr>
+0  0
+
+fn=<built-in method builtins.id>
+0  0
+
+fn=<built-in method builtins.isinstance>
+0  0
+
+fn=<built-in method builtins.iter>
+0  0
+
+fn=<built-in method builtins.len>
+0  0
+cfl=C:\Users\AsusCiv\AppData\Local\Programs\Python\Python39\lib\sre_parse.py
+cfn=__len__
+calls=1 160
+0 0
+
+fn=<built-in method builtins.min>
+0  0
+
+fn=<built-in method builtins.next>
+0  0
+
+fn=<built-in method builtins.ord>
+0  0
+
+fn=<built-in method builtins.setattr>
+0  0
+
+fn=<built-in method builtins.sorted>
+0  0
+
+fn=<built-in method _imp.acquire_lock>
+0  0
+
+fn=<built-in method _imp.release_lock>
+0  0
+
+fn=<built-in method _imp.is_builtin>
+0  0
+
+fn=<built-in method _imp.is_frozen>
+0  0
+
+fn=<built-in method _imp._fix_co_filename>
+0  0
+
+fn=<built-in method marshal.loads>
+0  0
+
+fn=<built-in method sys.getrecursionlimit>
+0  0
+
+fn=<method 'enable' of '_lsprof.Profiler' objects>
+0  818
+

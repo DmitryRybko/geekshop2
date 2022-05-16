@@ -1,0 +1,63 @@
+{% extends 'mainapp/base.html' %}
+
+
+
+
+{% block below_menu %}
+
+	{% include 'mainapp/includes/incl_menu.html' %}
+	<br>
+	<div class="details">
+		{% include 'mainapp/includes/categories_menu.html' %}
+		<br>
+		<div class="details-products">
+			<div class="details-slider">
+				<div class="slider-product">
+					<img src="/media/{{hot_product.image}}" alt="hot prod">
+					<div class="description">
+						<h3 class="big-bold">{{hot_product.name}}</h3>
+						<h3 class="red">горячее предложение</h3>
+						<p class="price">{{hot_product.price}}<span>руб</span></p>
+						<a href={% url "basket:add" hot_product.pk  %} class="red-button">
+							купить не глядя <i class="fa fa-chevron-right" aria-hidden="true"></i>
+						</a>
+						<div class="description-text">
+							<p>{{hot_product.short_desc}}</p>
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+
+{% endblock %}
+
+{% block featured %}
+
+<div class="related">
+				<div class="title clearfix">
+					<h2>Другие продукты</h2>
+					<a class="explore" href="#">показать все <img src="/static/img/arrow.png" alt=""></a>
+				</div>
+				<div class="related-products clearfix">
+
+
+					{% for item in same_products %}
+					<div class="block">
+						<a href="{% url 'main:product_page' item.pk %}"><img src="/media/{{item.image}}" alt="">
+							<div class="text">
+								<img src="/static/img/icon-hover.png" alt="img">
+								<h4>{{item.name}}</h4>
+								<p>{{item.short_desc}}</p>
+							</div>
+						</a>
+					</div>
+					{% endfor %}
+
+
+
+
+
+				</div>
+			</div>
+
+{% endblock %}

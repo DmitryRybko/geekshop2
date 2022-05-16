@@ -1,0 +1,12 @@
+[Unit]
+Description=geekshop daemon
+After=network.target
+
+[Service]
+User=user_01
+Group=www-data
+WorkingDirectory=/home/user_01/geekshop
+ExecStart=/usr/bin/gunicorn3 --access-logfile server.logs --workers 2 --bind unix:/home/user_01/geekshop/geekshop.sock geekshop.wsgi
+
+[Install]
+WantedBy=multi-user.target

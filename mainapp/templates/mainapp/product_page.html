@@ -1,0 +1,29 @@
+{% extends 'mainapp/base.html' %}
+
+{% block below_menu %}
+
+	{% include 'mainapp/includes/incl_menu.html' %}
+	<br>
+	<div class="details">
+		{% include 'mainapp/includes/categories_menu.html' %}
+		<br>
+		<div class="details-products">
+			<div class="details-slider">
+				<div class="slider-product">
+					<img src="/media/{{product.image}}" alt="hot prod">
+					<div class="description">
+						<h3 class="big-bold">{{product.name}}</h3>
+						<p class="price">{{product.price}}<span>руб</span></p>
+						<a href={%  url "basket:add" product.pk %} class="red-button">
+							заказать <i class="fa fa-chevron-right" aria-hidden="true"></i>
+						</a>
+						<div class="description-text">
+							<p>{{product.short_desc}}</p>
+						</div>
+					</div>
+				</div>
+		    </div>
+	    </div>
+    </div>
+
+{% endblock %}

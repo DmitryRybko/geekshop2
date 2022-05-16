@@ -1,0 +1,14 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Subject: 
+ =?utf-8?b?0J/QvtC00YLQstC10YDQttC00LXQvdC40LUg0YPRh9C10YLQvdC+0Lkg0LfQsNC/?=
+ =?utf-8?b?0LjRgdC4INC00LvRjyB1c2VyMzU=?=
+From: django@geekshop.local
+To: user35@user.ru
+Date: Fri, 09 Apr 2021 19:39:27 -0000
+Message-ID: <161799716707.10560.2648240488642434784@DESKTOP-VO7972A>
+
+Для подтверждения учетной записи user35 на портале http://localhost:8000 перейдите по ссылке: 
+http://localhost:8000/auth/user/verify/user35@user.ru/40bd40a20e68d0c7244400ad2adfd4f467ee809f/
+-------------------------------------------------------------------------------

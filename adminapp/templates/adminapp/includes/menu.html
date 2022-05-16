@@ -1,0 +1,16 @@
+<ul class="menu">
+    <li>
+        <a href="{% url 'main:home' %}">home</a>
+    </li>
+    <li>
+        <a href="{% url 'new_admin:index' %}">users</a>
+    </li>
+    <li>
+        <a href="{% url 'new_admin:categories' %}">
+            categories
+            {% if category %}
+                : {{ category.name }}
+            {% endif %}
+        </a>
+    </li>
+</ul>

@@ -1,0 +1,24 @@
+{% extends 'basketapp/base.html' %}
+{% load static %}
+
+{% block below_menu %}
+    <div class="basket_list">
+        {% if basket %}
+            {% for item in basket %}
+                <div class="basket_record">
+                    {% include 'basketapp/includes/basket_record.html' %}
+                </div>
+            {% endfor %}
+            <div class="basket_summary">
+                {% include 'basketapp/includes/basket_summary.html' %}
+            </div>
+        {% else %}
+            <h4>Корзина пуста</h4>
+        {% endif %}
+
+        <a href="{% url 'main:home' %}" class="btn btn-round">
+            на главную
+        </a>
+
+    </div>
+{% endblock %}

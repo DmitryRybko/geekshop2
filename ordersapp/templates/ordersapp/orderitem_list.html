@@ -1,0 +1,39 @@
+{% extends "ordersapp/base.html" %}
+{% load static %}
+
+{% block container %}
+
+
+    <div class="h2">Заказ №{{ order.pk }} от {{ order.add_dt|date:"Y-m-d H:i:s" }}</div>
+    <hr>
+    <div class="h4">заказчик: {{ user.username }}</div>
+    <div class="h4">обновлен: {{ order.update_dt|date:"Y-m-d H:i:s" }}</div>
+    <div class="h4">статус: {{ order.get_status_display }}</div>
+    <hr>
+    <div class="h4">
+        общее количество товаров: <span class="order_total_quantity">{{ order.total_quantity }}</span>
+    </div>
+    <div class="h3">
+        общая стоимость: <span class="order_total_cost">{{ order.total_cost }}</span> руб
+    </div>
+
+    <hr>
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">Товар</th>
+            <th scope="col">Количество</th>
+            <th scope="col">Цена, руб.</th>
+        </tr>
+        </thead>
+        {% for item in orderitem_list %}
+            <tr>
+                <td>{{ item.product }}</td>
+                <td>{{ item.qty }}</td>
+                <td>{{ item.product.price }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    {% include 'ordersapp/includes/inc__order_actions.html' %}
+
+{% endblock %}
